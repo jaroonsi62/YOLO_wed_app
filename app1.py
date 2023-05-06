@@ -38,7 +38,7 @@ if img_file is not None:
                     da.append(j)
                     name.remove(j)
         for p in range(len(da)):
-            obj_names = obj_name + da[p] + ' '
+            obj_names = obj_names + da[p] + ' '
         text_obj = 'ตรวจพบ ' + obj_names
     else:
         text_obj = 'ไม่พบวัตถุ'
