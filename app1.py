@@ -39,7 +39,7 @@ if img_file is not None:
                     name.remove(j)
         for p in range(len(da)):
             obj_names = obj_names + da[p] + ' '
-        text_obj = 'ตรวจพบ ' + obj_names
+        text_obj = 'ตรวจพบ : ' + obj_names
     else:
         text_obj = 'ไม่พบวัตถุ'
     #----------------------------------------------
