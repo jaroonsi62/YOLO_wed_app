@@ -17,7 +17,7 @@ name = ['Agaricus',
         'Russula',
         'Suillus']
 
-st.title("ตรวจจับวัตถุ : ภาพนิ่ง")
+st.title("การจำแนกชนิดของเห็ด : ภาพนิ่ง")
 img_file = st.file_uploader("โหลดไฟล์ภาพ")
 
 if img_file is not None:    
