@@ -41,7 +41,7 @@ if img_file is not None:
             obj_names = obj_names + da[p] + ' '
         text_obj = 'เห็ดที่ตรวจพบ : ' + obj_names
     else:
-        text_obj = 'ไม่พบวัตถุ'
+        text_obj = 'ไม่พบชนิดของเห็ด'
     #----------------------------------------------
     st.header(text_obj)
     st.image(pred_image, caption='ภาพ Output',channels="BGR")
